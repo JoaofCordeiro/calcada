@@ -1,0 +1,15 @@
+@import url("cabecalho.css");
+@import url("slides.css");
+@import url("rodape.css");
+@import url("principal.css");
+@import url("programacao.css");
+@import url("contato.css");
+
+:root {
+    --font-principal: 'Oswald';
+    --font-evento: 'Fredoka One';
+}
+
+body {
+    background-color: rgba(235, 235, 235, 0.973);
+}

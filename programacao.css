@@ -1,0 +1,90 @@
+.container__programacao {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+   
+}
+.titulo__evento{
+    display: flex;
+    justify-content: center;
+    color: rgb(5, 5, 5);
+    font-size: 30px;
+    padding: 10px;
+    font-family: var(--font-evento);
+}
+.lista__eventos{
+    display: flex;
+    padding: 0 5px;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagem__programacao{
+    width: 180px;
+    height: 180px;
+    margin: 0 5px;
+
+}
+
+.paragrafo__evento{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-principal);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    font-weight: bold;
+}
+.comprar_ingresso-link {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    margin: 5px;
+}
+.comprar_ingresso-imagem {
+    display: flex;
+    width: 160px;
+    height: 50px;
+}
+.paragrafo__ingresso-naodisponivel {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .container__programacao {
+        display: flex;
+        margin: 25px; 
+    }
+    .imagem__programacao{
+        width: 320px;
+        height: 320px;
+        margin: 0 25px;
+    
+    }
+    .comprar_ingresso-link {
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        height: 60px;
+        margin: 5px;
+    }
+    .comprar_ingresso-imagem {
+        width: 190px;
+        height: 60px;
+    }
+    .paragrafo__ingresso-naodisponivel {
+        width: 150px;
+        height: 50px;
+    }
+    .paragrafo__evento{
+        display: flex;
+        justify-content: center;
+        font-family: var(--font-principal);
+        color: rgb(0, 0, 0);
+        margin: 8px;
+        font-size: 23px;
+        font-weight: bold;
+    }
+}
